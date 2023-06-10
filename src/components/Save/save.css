@@ -1,0 +1,49 @@
+.save-img img {
+  width: 400px;
+  height: 300px;
+}
+.save-bg {
+  background-color: rgb(254, 213, 160);
+  position: relative;
+  top: -20rem;
+}
+.save-div,
+.kids-product {
+  margin: 2rem 5rem;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+.save-1 {
+  font-weight: bold;
+  padding: 40px 0;
+}
+.save-1 button,
+.kids-pro button,
+.kids-div button {
+  width: 130px;
+  height: 30px;
+  background-color: lime;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 15px;
+  color: #ffff;
+}
+.kids-div {
+  background: url("../../assets/sleep.webp");
+  background-position: center;
+  background-size: contain;
+
+  margin: 2rem 5rem;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 15px;
+  color: #ffff;
+  padding: 5rem;
+}
+.kids-div h4 {
+  font-size: 25px;
+}

@@ -1,39 +1,34 @@
-import React, { useState } from 'react';
+import { Carousel } from 'antd';
 import './caroulsel.css'
-
-const Carousel = ({ items }) => {
-  const [currentItem, setCurrentItem] = useState(0);
-
-  const handleClick = (index) => {
-    setCurrentItem(index);
+const contentStyle = {
+ 
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+};
+const Change = () => {
+  const onChange = (currentSlide) => {
+    console.log(currentSlide);
   };
-
-  const renderItems = () => {
-    return items.map((item, index) => (
-      <div className={`carousel-item ${index === currentItem ? 'active' : ''}`} key={index}>
-        {item}
-      </div>
-    ));
-  };
-
-  const renderDots = () => {
-    return items.map((item, index) => (
-      <span
-        className={`dot ${index === currentItem ? 'active' : ''}`}
-        key={index}
-        onClick={() => handleClick(index)}
-      />
-    ));
-  };
-
   return (
-    <div className="carousel">
-      <div className="carousel-container">
-        <div className="carousel-items">{renderItems()}</div>
+    <div className='carousel'>
+    <Carousel afterChange={onChange}>
+      <div>
+        <h3 style={contentStyle}>1</h3>
       </div>
-      <div className="dots-container">{renderDots()}</div>
+      <div>
+        <h3 style={contentStyle}>2</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>34</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>4</h3>
+      </div>
+    </Carousel>
     </div>
   );
 };
-
-export default Carousel;
+export default Change;

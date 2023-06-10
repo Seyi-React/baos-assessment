@@ -2,11 +2,12 @@ import Navbar from "./components/navbar/Navbar";
 import DynamicText from "./components/DynamicText/Dynamic";
 import Clothing from "./components/Clothing/Clothing";
 import Features from "./components/Features/Features";
-import Carousel from "./components/Caroulsel/Caroulsel";
+import Change from "./components/Caroulsel/Caroulsel";
+import Save from "./components/Save/Save";
 
 function App() {
 
-  const carouselItems = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
+
 
 
   return (
@@ -16,7 +17,8 @@ function App() {
         <DynamicText/>
         <Clothing/>
         <Features/>
-        <Carousel items={carouselItems}/>
+        <Change/>
+        <Save/>
       </div>
     </>
   );

@@ -1,50 +1,6 @@
-
 .carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
     top: -20rem;
-  }
-  
-  .carousel-container {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-  }
-  
-  .carousel-items {
-    display: flex;
-    transition: transform 0.3s ease;
-  }
-  
-  .carousel-item {
-    flex: 0 0 200px; /* Adjust the width of each item */
-    margin-right: 20px; /* Adjust the spacing between items */
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  .carousel-item.active {
-    background-color: #c0c0c0;
-  }
-  
-  .dots-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #888;
-    margin-right: 5px; /* Adjust the spacing between dots */
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #333;
-  }
-  
+    margin: 0 5rem;
+    border-radius: 15px;
+}
