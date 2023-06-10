@@ -1,0 +1,23 @@
+.dynamic {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    top: -20rem;
+}
+.dynamic h1 {
+    color: white;
+    font-size: 15px;
+}
+
+@media (max-width:913px) {
+    .dynamic {
+        top: -1rem;
+        }
+}
+
+@media (max-width:500px ){
+    .dynamic {
+    top: -8rem;
+    }
+}

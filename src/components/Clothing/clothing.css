@@ -1,0 +1,71 @@
+.clothing {
+    background: url('../../assets/Clothimg.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -20rem;
+    padding: 2rem 0;
+    /* filter: blur(1px); */
+}
+.clothing-text {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.clothing-text h1 {
+    padding-bottom: 2rem;
+    font-size: 45px;
+}
+.clothing-text p {
+    padding-bottom: 1rem;
+}
+.clothing-btn {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.clothing-btn button {
+    margin: 0 35px;
+}
+.shop {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(105, 199, 11);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+}
+.mission {
+    width: 150px;
+    height: 35px;
+    color: rgb(36, 67, 5);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+}
+@media (max-width:912px) {
+   .clothing {
+    top: -1rem;
+}
+}
+@media (max-width:500px) {
+    .clothing {
+        top: -8rem;
+    }
+    .clothing-text h1 {
+        font-size: 27px;
+    }
+    .clothing-text p {
+        font-size: 13px;
+    }
+    .clothing-btn  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}

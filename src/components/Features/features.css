@@ -1,0 +1,233 @@
+.features {
+  position: relative;
+  top: -20rem;
+  text-align: center;
+  background-color: rgb(254, 213, 160);
+}
+.we {
+  padding: 4rem;
+}
+.feature-div {
+  background-color: white;
+  margin: 0 5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 1rem;
+}
+.feature-img {
+  height: 40px;
+}
+.feature-sec {
+  background-color: white;
+  margin: 0 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+.feature-other {
+  text-align: left;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.lady {
+  margin-left: -10.5rem;
+  border-bottom-left-radius: 15px;
+  margin-top: 5px;
+}
+.feature-other button {
+  width: 150px;
+  height: 35px;
+  background-color: rgb(105, 199, 11);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+.baby-sec,
+.child-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.one {
+  background: url("../../assets/baby.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.two {
+  background: url("../../assets/baby1.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.three {
+  background: url("../../assets/baby2.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.four {
+  background: url("../../assets/babylast.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.children {
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+.child {
+  background: url("../../assets/blur.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-1 {
+  background: url("../../assets/blur1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-2 {
+  background: url("../../assets/blur2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-3 {
+  background: url("../../assets/blur3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child,
+.child-1,
+.child-3,
+.child-2 h4 {
+  font-size: 22px;
+}
+
+@media (max-width: 913px) {
+  .lady {
+    margin-left: -2rem;
+    height: 220px;
+  }
+  .feature-sec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .feature-other button {
+    margin-bottom: 2rem;
+  }
+  .baby-sec,
+  .child-div {
+    /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .feature-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+  }
+  .lady {
+    height: 150px;
+    width: 180px;
+    margin-left: 0;
+  }
+  .feature-sec {
+    text-align: center;
+    padding: 20px;
+  }
+  .baby-sec,
+  .child-div {
+    flex-direction: column;
+  }
+  .child-1,
+  .child-2,
+  .child-3,
+  .child,
+  .one,
+  .two,
+  .three,
+  .four {
+    height: 150px;
+    width: 150px;
+  }
+}

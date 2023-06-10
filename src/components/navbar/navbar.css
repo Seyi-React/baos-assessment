@@ -1,0 +1,143 @@
+.desktop-style {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+.baos-img {
+    height: 60px;
+}
+.last-sec {
+    position: relative;
+}
+.first-sec span, .last-sec span {
+    margin: 10px 15px;
+    cursor: pointer;
+}
+.data {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.hov {
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+    /* height: 160px; */
+} 
+.hovI {
+    position:absolute;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+.hovI p {
+    padding: 20px;
+}
+.hov p {
+    font-size: 13px;
+    padding: 8px;
+}
+.hov-i {
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 1px 1px 2px grey;
+}
+.hov-i small {
+    display: block;
+    padding: 15px;
+}
+.hamb {
+    visibility: hidden;
+}
+.sec-view {
+    visibility: hidden;
+}
+
+@media (max-width:913px) {
+    .desktop-style {
+        visibility: hidden;
+    }
+    .data {
+        visibility: hidden;
+    }
+    nav {
+        position: relative;
+
+    }
+    .hamb {
+        visibility:visible;
+    }
+    .hamb p {
+        cursor: pointer;
+    }
+    .sec-view {
+        visibility: visible;
+        display: flex;
+        align-items: center;
+    }
+    .sec-view p {
+        margin: 0 5px;
+    }
+    .mobile-img {
+        height: 40px;
+    }
+    .small-view {
+        position: absolute;
+        top: 0;
+       display: flex;
+       gap: 30rem;
+       padding: 3rem ;
+    }
+    .mobile-iii {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 5;
+        background-color: rgb(255, 255, 255);
+        transition: 0.55s ease;
+    }
+    .mobile-iii p {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobile-outer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+    .store {
+        width: 230px;
+        height: 35px;
+        /* opacity: 0.4; */
+        outline: none;
+        border: none;
+        margin-left: -2rem;
+        background-color: rgb(202, 189, 189);
+    }
+    .sub {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:3rem;
+        margin-top: 2rem;
+    }
+  
+    
+}
+@media (max-width:500px) {
+    .small-view {
+        position: absolute;
+        top: 0;
+       display: flex;
+       gap: 7.5rem;
+       padding: 1rem;
+    }
+}
+
