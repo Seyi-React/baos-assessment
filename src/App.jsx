@@ -4,6 +4,7 @@ import Clothing from "./components/Clothing/Clothing";
 import Features from "./components/Features/Features";
 import Change from "./components/Caroulsel/Caroulsel";
 import Save from "./components/Save/Save";
+import Brand from "./components/Brand/Brand";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Features/>
         <Change/>
         <Save/>
+        <Brand/>
       </div>
     </>
   );

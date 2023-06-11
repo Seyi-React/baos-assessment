@@ -47,3 +47,29 @@
 .kids-div h4 {
   font-size: 25px;
 }
+@media (max-width: 913px) {
+  .save-div,
+  .kids-product {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .save-img img,
+  .kids-product img {
+    width: 300px;
+    height: 200px;
+  }
+  .save-1 p,
+  .kids-pro p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 550px) {
+  .save-img img,
+  .kids-product img {
+    width: 180px;
+  }
+  .kids-div {
+    padding: 2rem;
+  }
+}

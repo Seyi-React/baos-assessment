@@ -131,13 +131,16 @@
   
     
 }
-@media (max-width:500px) {
+@media (max-width:550px) {
     .small-view {
         position: absolute;
         top: 0;
        display: flex;
-       gap: 7.5rem;
-       padding: 1rem;
+       gap: 3.5rem;
+       padding: 0.5rem;
+       margin-left: 5rem;
+       justify-content: center;
+       align-items: center;
     }
 }
 
