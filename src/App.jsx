@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import Change from "./components/Caroulsel/Caroulsel";
 import Save from "./components/Save/Save";
 import Brand from "./components/Brand/Brand";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Change/>
         <Save/>
         <Brand/>
+        <Footer/>
       </div>
     </>
   );
